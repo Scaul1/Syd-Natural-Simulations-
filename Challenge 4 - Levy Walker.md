@@ -39,3 +39,5 @@ draw = function() {
     w.walk();
     w.display();
 };
+
+![picture of code](https://i.imgur.com/LTLXHdl.gif)
