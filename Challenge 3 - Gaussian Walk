@@ -31,4 +31,4 @@ draw = function() {
     w.display();
 };
 
-![gif of code](https://i.imgur.com/u84ldBE.gif)
+
