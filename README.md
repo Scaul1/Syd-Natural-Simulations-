@@ -9,3 +9,6 @@ Challenge 2 - Up Walker
 
 Challenge 3 - Gaussian Walk
 ![gif of code](https://i.imgur.com/u84ldBE.gif)
+
+Challenge 4 - Levy Walker
+![picture of code](https://i.imgur.com/LTLXHdl.gif)
