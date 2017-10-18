@@ -6,3 +6,6 @@ Challenge 1 - Random Blobber
 
 Challenge 2 - Up Walker
 ![Gif of code](https://i.imgur.com/x3L5ZZd.gif)
+
+Challenge 3 - Gaussian Walk
+![gif of code](https://i.imgur.com/u84ldBE.gif)
