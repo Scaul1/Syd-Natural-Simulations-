@@ -33,5 +33,3 @@ draw = function() {
     w.walk();
     w.display();
 };
-
-![gif of code](https://i.imgur.com/ylW3AaR.gif)
