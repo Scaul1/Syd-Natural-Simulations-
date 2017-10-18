@@ -29,5 +29,3 @@ draw = function() {
     w.walk();
     w.display();
 };
-
-![Gif of code](https://i.imgur.com/x3L5ZZd.gif)
