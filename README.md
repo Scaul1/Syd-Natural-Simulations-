@@ -22,3 +22,6 @@ Project 1 - Paint Splatter
 
 Challenge 1 - Noisy Step Walker
 ![gif of code](https://i.imgur.com/lCuStIV.gif)
+
+Challenge 2 - Animated Noise
+![gif of code](https://i.imgur.com/MyrgjtL.gif)
