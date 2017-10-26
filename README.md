@@ -33,3 +33,6 @@ Project 1 - Mountain Range
 
 Challenge 1 - Vector Walker
 ![gif of code](https://i.imgur.com/ZDI3svc.gif)
+
+Challenge 2 - Lightsaber
+![gif of code](https://i.imgur.com/Vekm2j3.gif)
