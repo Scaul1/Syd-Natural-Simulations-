@@ -1,9 +1,31 @@
 //blue sky
-background(87, 221, 242);
+background(117, 0, 128);
 //sun
-fill(242, 255, 0);
+fill(230, 180, 71);
 noStroke();
 ellipse(0, 0, 120, 120);
+
+
+////////// using noise to make hazy clouds /////////
+
+//x-value for the shade
+    var xOff = 0;
+    //loop for each pixel horizontally
+    for (var x = 0; x < width; x+= 2) {
+        //y-value for the shade
+        var yOff = 0.0;
+        //loop for each pixel vertically
+        for (var y = 0; y < 180; y+=2) {
+            //using noise to create a shade
+            var bright = map(noise(xOff, yOff), 0, 1, -200, 283);
+            //creating the point
+            stroke(255, 255, 255, bright);
+            point(x, y);
+            
+            yOff += 0.1;
+        }
+        xOff += 0.01;
+    }
 
 //creating three different mountain ranges
 var drawRange = function() {
@@ -124,37 +146,15 @@ tree.prototype.walk = function() {
     }
 };
 
+//new tree variable to be modified
 var t = new tree();
 
-////////// using 2D noise to make animated cloud /////////
-//third variable to animate
-var zOff = 0.0;
-
-draw = function() {
+//loop to display multiple trees and birds
+for (var i = 0; i<200; i++){
     //displaying the trees
     t.walk();
     t.display();
     //displaying the birds
     b.move();
     b.display();
-    
-    //x-value for the shade
-    var xOff = 0.0;
-    //loop for each pixel horizontally
-    for (var x = 60; x < 96; x++) {
-        //y-value for the shade
-        var yOff = 0.0;
-        //loop for each pixel vertically
-        for (var y = 70; y < 109; y++) {
-            //using noise to create a shade
-            var bright = map(noise(xOff, yOff, zOff), 0, 1, 0, 450);
-            //creating the point
-            stroke(bright, bright, bright);
-            point(x, y);
-            
-            yOff += 0.01;
-        }
-        xOff += 0.01;
-    }
-    zOff += 0.01;
-};
+}
