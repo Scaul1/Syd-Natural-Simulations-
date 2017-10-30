@@ -27,7 +27,7 @@ Challenge 2 - Animated Noise
 ![gif of code](https://i.imgur.com/MyrgjtL.gif)
 
 Project 1 - Mountain Range
-![Imgur](<a href="https://imgur.com/hx279Ob"><img src="https://i.imgur.com/hx279Ob.png" title="source: imgur.com" /></a>)
+<a href="https://imgur.com/hx279Ob"><img src="https://i.imgur.com/hx279Ob.png" title="source: imgur.com" /></a>
 
 ## Lesson 3 - Vectors 
 
