@@ -17,5 +17,5 @@ mouseMoved = function() {
     
     //displaying text with 
     fill(255, 0, 0);
-    text(m, mouse.x, mouse.y, 20, 10);
+    text(m, mouse.x, mouse.y);
 };
