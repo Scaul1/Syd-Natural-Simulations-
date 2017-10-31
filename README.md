@@ -36,3 +36,14 @@ Challenge 1 - Vector Walker
 
 Challenge 2 - Lightsaber
 ![gif of code](https://i.imgur.com/Vekm2j3.gif)
+
+Challenge 3 - Magnitude Visualizer
+![gif of code](https://i.imgur.com/Wh2pLMa.gif)
+
+Challenge 4 - Braking Car
+![gif of code](https://i.imgur.com/EcWlpA8.gif)
+
+Challenge 5 - Static Functions
+<a href="https://imgur.com/n6VmG4v"><img src="https://i.imgur.com/n6VmG4v.png?1" title="source: imgur.com" /></a>
+
+
