@@ -60,4 +60,5 @@ Challenge 1 - Floating Balloon
 Challenge 2 - Wall Balls
 ![gif of code](https://i.imgur.com/eIGZhbD.gif)
 
-
+Challenge 3 - Speed Bumps
+![gif of code](https://i.imgur.com/kDJ9Cjo.gif)
