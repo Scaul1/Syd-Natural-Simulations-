@@ -49,4 +49,15 @@ Challenge 5 - Static Functions
 Challenge 6 - Mouse Stalker
 ![gif of code](https://i.imgur.com/4cwqYAH.gif)
 
+Project 1 - Computational Creatures
+![gif of code](https://i.imgur.com/Pd3FB3N.gif)
+
+## Lesson 4 - Forces
+
+Challenge 1 - Floating Balloon
+![gif of code](https://i.imgur.com/U09oJij.gif)
+
+Challenge 2 - Wall Balls
+![gif of code](https://i.imgur.com/eIGZhbD.gif)
+
 
