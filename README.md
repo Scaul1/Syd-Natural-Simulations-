@@ -68,3 +68,6 @@ Challenge 4 - Sinking Logs
 
 Challenge 5 - Artwork Generator
 ![gif of code](https://i.imgur.com/oguN3ep.gif)
+
+Challenge 6 - Mutual Repulsion
+![gif of code](https://i.imgur.com/0QGw1qp.gif)
