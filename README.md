@@ -62,3 +62,9 @@ Challenge 2 - Wall Balls
 
 Challenge 3 - Speed Bumps
 ![gif of code](https://i.imgur.com/kDJ9Cjo.gif)
+
+Challenge 4 - Sinking Logs
+![gif of code](https://i.imgur.com/fX7q3EK.gif)
+
+Challenge 5 - Artwork Generator
+![gif of code](https://i.imgur.com/oguN3ep.gif)
