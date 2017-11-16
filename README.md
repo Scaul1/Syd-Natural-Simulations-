@@ -71,3 +71,11 @@ Challenge 5 - Artwork Generator
 
 Challenge 6 - Mutual Repulsion
 ![gif of code](https://i.imgur.com/0QGw1qp.gif)
+
+## Lesson 5 - Angular Movement
+
+Challenge 1 - Spinning Baton
+![gif of coe](https://i.imgur.com/JkZbxux.gif)
+
+Challenge 2 - Falling Boulder
+![gif of code](https://i.imgur.com/KpGfypg.gif)
