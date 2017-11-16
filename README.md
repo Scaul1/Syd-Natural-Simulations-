@@ -79,3 +79,6 @@ Challenge 1 - Spinning Baton
 
 Challenge 2 - Falling Boulder
 ![gif of code](https://i.imgur.com/KpGfypg.gif)
+
+Challenge 3 - Turning Car
+![gif of code](https://i.imgur.com/Z7m1ZeW.gif)
