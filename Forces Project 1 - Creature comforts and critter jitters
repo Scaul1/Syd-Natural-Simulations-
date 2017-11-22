@@ -1,3 +1,4 @@
+//global variable as gravity force
 var force = 1;
 
 //Biggest possible PVector that fits in the canvas
@@ -6,12 +7,14 @@ var maxDir = PVector.sub (new PVector (0, 0), new PVector (width-1, height-1));
 //Magnitude of that vector
 var maxMag = maxDir.mag();
 
-var Repulsor = function(){
+//defining the properties of the flower
+var Flower = function(){
     this.position = new PVector(width/2, height-100);
     this.mass = 40;
 };
 
-Repulsor.prototype.calculateAttraction = function(m){
+//function that calculates the attraction of the flower on the bugs
+Flower.prototype.calculateAttraction = function(m){
     //direction of the force
     var forceOfR = PVector.sub(this.position, m.position);
     //how far away the objects are
@@ -20,29 +23,26 @@ Repulsor.prototype.calculateAttraction = function(m){
     distance = constrain(distance, 5, 50);  
     forceOfR.normalize();
     //calculating gravity
-    var strength = -1*(this.force * this.mass * m.mass) / (distance * distance);
+    var strength = (this.force * this.mass * m.mass) / (distance * distance);
     forceOfR.mult(strength);
     return forceOfR;
 };
 
-Repulsor.prototype.display = function(){
-    //venus fly trap
-    fill(120, 245, 120);
-    //head
-    arc(this.position.x+2, this.position.y+4, 105, 98, 336, 656);
-    fill(255, 0, 0);
-    //tongue
-    triangle(this.position.x+2, this.position.y+4, this.position.x+50, this.position.y-15, this.position.x+54, this.position.y+1);
-    fill(245, 228, 228);
-    //teeth
-    triangle(this.position.x+2, this.position.y+4, this.position.x+12, this.position.y-7, this.position.x+13, this.position.y+3);
-    triangle(this.position.x+20, this.position.y+3, this.position.x+27, this.position.y-12, this.position.x+31, this.position.y);
-    triangle(this.position.x+40, this.position.y+3, this.position.x+45, this.position.y-8, this.position.x+48, this.position.y+3);
-    triangle(this.position.x+13, this.position.y-11, this.position.x+19, this.position.y-24, this.position.x+22, this.position.y-14);
-    triangle(this.position.x+31, this.position.y-31, this.position.x+20, this.position.y-31, this.position.x+24, this.position.y-38);
-    strokeWeight(8);
-    stroke(31, 156, 26);
-    line(this.position.x, this.position.y+100, this.position.x, this.position.y+54);
+//displaying the Flower
+Flower.prototype.display = function(){
+    //four pedals
+    fill(255, 0, 242);
+    ellipse(this.position.x+11, this.position.y, 16, 16);
+    ellipse(this.position.x-11, this.position.y, 16, 16);
+    ellipse(this.position.x, this.position.y-11, 16, 16);
+    ellipse(this.position.x, this.position.y+11, 16, 16);
+    //center of flower
+    fill(255, 247, 0);
+    ellipse(this.position.x, this.position.y, 10, 10);
+    //flower stem
+    stroke(11, 122, 37);
+    strokeWeight(4);
+    line(this.position.x, this.position.y+100, this.position.x, this.position.y+20);
 };
 
 
@@ -104,11 +104,6 @@ Bug.prototype.calculateAttraction = function(m) {
     return forceOfA;
 };
 
-/*//applying forces to change acceleration of bugs
-Bug.prototype.applyForceA = function(forceOfA) {
-    var forceOnBugA = PVector.div(forceOfA, this.mass);
-    this.acceleration.add(forceOnBugA);
-};*/
 
 //applying forces to change acceleration of bugs
 Bug.prototype.applyForce = function(forces) {
@@ -116,7 +111,7 @@ Bug.prototype.applyForce = function(forces) {
     this.acceleration.add(f);
 };
 
-var repulsor = new Repulsor();
+var flower = new Flower();
 
 //declaring array for new bugs
 var bug = [];
@@ -136,9 +131,8 @@ draw = function() {
     //looping through all of the movers
     for (var i = 0; i < bug.length; i++) {
         
-        var forceOfR = repulsor.calculateAttraction(bug[i]);
-        bug[i].applyForce(forceOfR);
-        
+        var forceOfF = flower.calculateAttraction(bug[i]);
+        bug[i].applyForce(forceOfF);
         
         //loop to make each mover be attracted to all other movers
         for (var j = 0; j < bug.length; j++) {
@@ -150,7 +144,7 @@ draw = function() {
             }
         }
         //calling the update and display functions
-        repulsor.display();
+        flower.display();
         bug[i].update();
         bug[i].display();
     }
