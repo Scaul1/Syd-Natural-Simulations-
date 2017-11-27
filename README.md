@@ -72,6 +72,9 @@ Challenge 5 - Artwork Generator
 Challenge 6 - Mutual Repulsion
 ![gif of code](https://i.imgur.com/0QGw1qp.gif)
 
+Project 1 - Creature Comforts and Critter Jitters
+![gif of code](https://i.imgur.com/syMz5qN.gif)
+
 ## Lesson 5 - Angular Movement
 
 Challenge 1 - Spinning Baton
