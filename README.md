@@ -85,3 +85,11 @@ Challenge 2 - Falling Boulder
 
 Challenge 3 - Turning Car
 ![gif of code](https://i.imgur.com/Z7m1ZeW.gif)
+
+Challenge 4 - Spiral Drawer
+![gif of code](https://i.imgur.com/WmSu0pi.gif)
+
+## Lesson 6 - Oscillations
+
+Challenge 1 - Rainbow Slinky
+![gif of code](https://i.imgur.com/Hgssf1I.gif)
