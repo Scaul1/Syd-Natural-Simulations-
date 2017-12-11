@@ -89,7 +89,19 @@ Challenge 3 - Turning Car
 Challenge 4 - Spiral Drawer
 ![gif of code](https://i.imgur.com/WmSu0pi.gif)
 
+Project 1 - Asteroid Spaceship
+![gif of code](https://i.imgur.com/qsxS0zw.gif)
+
 ## Lesson 6 - Oscillations
 
 Challenge 1 - Rainbow Slinky
 ![gif of code](https://i.imgur.com/Hgssf1I.gif)
+
+Challenge 2 - Spacehsip Ride
+![gif of code](https://i.imgur.com/pprfUxq.gif)
+
+Challenge 3 - Many Waves
+![gif of code](https://i.imgur.com/14wyNcc.gif)
+
+Challenge 4 - Pendulum Puppet
+![gif of code](https://i.imgur.com/Ju3XF3h.gif)
