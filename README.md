@@ -105,3 +105,6 @@ Challenge 3 - Many Waves
 
 Challenge 4 - Pendulum Puppet
 ![gif of code](https://i.imgur.com/Ju3XF3h.gif)
+
+Project 1 - Curling, crawling, circling creatures
+![gif of code](https://i.imgur.com/Ki1SQ7m.gif)
