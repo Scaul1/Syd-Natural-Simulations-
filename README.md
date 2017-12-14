@@ -113,3 +113,6 @@ Project 1 - Curling, crawling, circling creatures
 
 Challenge 1 - Falling Leaves
 ![gif of code](https://i.imgur.com/ldggylb.gif)
+
+Challenge 2 - Fish Bubbles
+![gif of code](https://i.imgur.com/giRm1Mk.gif)
