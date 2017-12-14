@@ -22,6 +22,7 @@ Particle.prototype.update = function(){
     this.velocity.add(this.acceleration);
     this.position.add(this.velocity);
     this.aVelocity += this.aAcceleration;
+    this.aVelocity = constrain(this.aVelocity,-0.2,0.2);
     this.angle += this.aVelocity;
 };
 
@@ -30,7 +31,7 @@ Particle.prototype.display = function() {
     pushMatrix();
     translate(this.position.x, this.position.y);
     rotate(this.angle);
-    image(getImage("avatars/leaf-green"), this.position.x, this.position.y, 40, 40);
+    image(getImage("avatars/leaf-green"), 0, 0, 40, 40);
     popMatrix();
 };
 
@@ -108,15 +109,17 @@ draw = function() {
     for (var i = 0; i < leaves.length; i++){
         var leaf = leaves[i];
         //stopping leaves when they fall to the ground
-        if (leaf.position.y > 400){
+        if (leaf.position.y < 380){
+            leaf.run();
+        }
+        else {
+            leaf.display();
+        }
+        if (leaf.position.y > 380){
             leaf.acceleration.set(0,0);
             leaf.velocity.set(0,0);
-            leaf.position.set(leaf.position.x, 400);
             leaf.aVelocity = 0;
             leaf.aAcceleration = 0;
-            leaf.angle = 0;
         }
-        leaf.run();
     }
 };
-
