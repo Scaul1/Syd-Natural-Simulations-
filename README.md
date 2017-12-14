@@ -108,3 +108,8 @@ Challenge 4 - Pendulum Puppet
 
 Project 1 - Curling, crawling, circling creatures
 ![gif of code](https://i.imgur.com/Ki1SQ7m.gif)
+
+## Lesson 7 - Particle Systems
+
+Challenge 1 - Falling Leaves
+![gif of code](https://i.imgur.com/ldggylb.gif)
