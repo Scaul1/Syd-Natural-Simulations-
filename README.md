@@ -116,3 +116,6 @@ Challenge 1 - Falling Leaves
 
 Challenge 2 - Fish Bubbles
 ![gif of code](https://i.imgur.com/giRm1Mk.gif)
+
+Challenge 3 - Fire Starter
+![gif of code](https://i.imgur.com/DqawNwq.gif)
