@@ -119,3 +119,6 @@ Challenge 2 - Fish Bubbles
 
 Challenge 3 - Fire Starter
 ![gif of code](https://i.imgur.com/DqawNwq.gif)
+
+Challenge 4 - Magical Cauldron
+![gif of code](https://i.imgur.com/SozxIRT.gif)
