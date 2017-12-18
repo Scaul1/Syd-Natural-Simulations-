@@ -122,3 +122,6 @@ Challenge 3 - Fire Starter
 
 Challenge 4 - Magical Cauldron
 ![gif of code](https://i.imgur.com/SozxIRT.gif)
+
+Challenge 5 - River Rocks
+![gif of code](https://i.imgur.com/pZfJAQ6.gif)
