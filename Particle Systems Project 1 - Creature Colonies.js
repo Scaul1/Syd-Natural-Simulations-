@@ -1,5 +1,5 @@
--particle system of rain that falls from clouds user makes
+//THINGS LEFT TO DO:
 
--particle system of little flies
--inheritance of this particle system that is a different fly 
--all flies avoid ladybugs
+//particle system of ants coming out of hole
+//inheritance of this particle system that is a different bug
+//randomized leaves that attract bugs
