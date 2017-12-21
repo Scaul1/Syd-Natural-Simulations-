@@ -125,3 +125,6 @@ Challenge 4 - Magical Cauldron
 
 Challenge 5 - River Rocks
 ![gif of code](https://i.imgur.com/pZfJAQ6.gif)
+
+Project 1 - Creature Colonies
+![gif of code](https://i.imgur.com/a8Dgl50.gif)
